@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    height: 300vh;
+    height: 250vh;
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
@@ -21,6 +21,14 @@ body {
 
 .gap {
     gap: 10px;
+}
+
+.margin {
+    margin: 0 25%;
+}
+
+.margin-quote {
+    margin: 0 540px;
 }
 
 .upper-con {
@@ -54,7 +62,7 @@ li {
     
 }
 
-.header, .upper-back {
+.header-back, .upper-back {
     background-color: #1F2937;
 }
 
@@ -62,11 +70,11 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 
-.headertxt {
+.headertxt, .quote {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
@@ -97,7 +105,7 @@ ul {
 }
 
 .middle-con1 {
-    gap: 30px;
+    gap: 50px;
 
 }
 
@@ -149,7 +157,7 @@ ul {
     justify-content: space-between;
     border-radius: 5px;
     padding: 50px 100px;
-    gap: 250px;
+    gap: 100px;
 }
 
 .lower-con-txt {
@@ -163,8 +171,10 @@ ul {
 
 .button {
     background-color: #3882F6;
-    border-radius: 5px;
-    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: 700;
+    padding: 5px 25px;
     border: none;
 }
 
@@ -183,5 +193,6 @@ ul {
 }
 
 .quote {
-    align-self: flex-end;
+    text-align: end;
+    margin: 0 45px;
 }
